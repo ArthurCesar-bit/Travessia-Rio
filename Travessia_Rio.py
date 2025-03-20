@@ -31,7 +31,7 @@ def travessia():
         if policial == 1 and filho1 == 1:
             policial = 0
             filho1 = 0
-            print("\nPolicia e Filho 1 atravessam juntos.")
+            print("\nPolicial e Filho 1 atravessam juntos.")
             mostrar_situacao(pai, mae, filho1, filho2, filha1, filha2, policial, prisioneiro)
 
         # Policial volta com o prisioneiro
